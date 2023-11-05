@@ -30,7 +30,6 @@ def run_test():
         for player in players:
             player.print_hand()
         print("")
-        input()
 
     # everyone should get one last turn 
     og_player_idx = curr_player_idx - 1
@@ -45,7 +44,6 @@ def run_test():
         for player in players:
             player.print_hand()
         print("")
-        input()
 
 
 
